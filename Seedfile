@@ -1,0 +1,2 @@
+# github "mutualmobile/MMDrawerController", "0.6.0"
+github "sascha/DrawerController","1.0.4", :files => "DrawerController/*.{swift,h}"

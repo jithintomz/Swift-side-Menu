@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		114017A1AC97D667975BD675 /* AnimatedMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93DD9173BA7CC9E77B8443 /* AnimatedMenuButton.swift */; };
+		322E4A76D67C76705A3EF893 /* AnimatedMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93DD9173BA7CC9E77B8443 /* AnimatedMenuButton.swift */; };
+		5CD1EA62A86E5303445B0029 /* DrawerBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751822D065B046B8D7DEC3F0 /* DrawerBarButtonItem.swift */; };
+		5D630B921C6465F8009E5BE3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D630B911C6465F8009E5BE3 /* AboutViewController.swift */; };
+		5D630B941C646641009E5BE3 /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D630B931C646641009E5BE3 /* MyCustomTableViewCell.swift */; };
+		5D8FD5B01C64AB550005DBCF /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8FD5AF1C64AB550005DBCF /* TableCell.swift */; };
+		5D93F0861C6326E7004CF592 /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93F0851C6326E7004CF592 /* LeftSideViewController.swift */; };
+		5D93F0881C6326FE004CF592 /* RightSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93F0871C6326FE004CF592 /* RightSideViewController.swift */; };
 		5DB617841C61E48300FA4E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB617831C61E48300FA4E5D /* AppDelegate.swift */; };
 		5DB617861C61E48300FA4E5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB617851C61E48300FA4E5D /* ViewController.swift */; };
 		5DB617891C61E48300FA4E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB617871C61E48300FA4E5D /* Main.storyboard */; };
 		5DB6178B1C61E48300FA4E5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB6178A1C61E48300FA4E5D /* Images.xcassets */; };
 		5DB6178E1C61E48300FA4E5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DB6178C1C61E48300FA4E5D /* LaunchScreen.xib */; };
 		5DB6179A1C61E48300FA4E5D /* sidemenutestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB617991C61E48300FA4E5D /* sidemenutestTests.swift */; };
+		761BA5F2CED2BAC901AEDFF1 /* DrawerVisualState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632ED3E878F98DDE9D8ACC97 /* DrawerVisualState.swift */; };
+		7A450A6C57AA646B6B4FE58B /* DrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F81813C5A93F4C64C0BEC /* DrawerController.swift */; };
+		8F1E5E1A55A01C50C1D95043 /* DrawerVisualState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632ED3E878F98DDE9D8ACC97 /* DrawerVisualState.swift */; };
+		9D04D845B871F55D4C9078E6 /* DrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F81813C5A93F4C64C0BEC /* DrawerController.swift */; };
+		A1882FEAEB76A0F35104F7EA /* DrawerBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751822D065B046B8D7DEC3F0 /* DrawerBarButtonItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36324DE93EBB7C24134705B6 /* DrawerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DrawerController.h; path = Seeds/DrawerController/DrawerController/DrawerController.h; sourceTree = "<group>"; };
+		5D630B911C6465F8009E5BE3 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		5D630B931C646641009E5BE3 /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
+		5D8FD5AF1C64AB550005DBCF /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		5D93F0851C6326E7004CF592 /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
+		5D93F0871C6326FE004CF592 /* RightSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightSideViewController.swift; sourceTree = "<group>"; };
 		5DB6177E1C61E48300FA4E5D /* sidemenutest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sidemenutest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB617821C61E48300FA4E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DB617831C61E48300FA4E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +55,10 @@
 		5DB617931C61E48300FA4E5D /* sidemenutestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sidemenutestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB617981C61E48300FA4E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DB617991C61E48300FA4E5D /* sidemenutestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenutestTests.swift; sourceTree = "<group>"; };
+		632ED3E878F98DDE9D8ACC97 /* DrawerVisualState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerVisualState.swift; path = Seeds/DrawerController/DrawerController/DrawerVisualState.swift; sourceTree = "<group>"; };
+		751822D065B046B8D7DEC3F0 /* DrawerBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerBarButtonItem.swift; path = Seeds/DrawerController/DrawerController/DrawerBarButtonItem.swift; sourceTree = "<group>"; };
+		CB5F81813C5A93F4C64C0BEC /* DrawerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerController.swift; path = Seeds/DrawerController/DrawerController/DrawerController.swift; sourceTree = "<group>"; };
+		FC93DD9173BA7CC9E77B8443 /* AnimatedMenuButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedMenuButton.swift; path = Seeds/DrawerController/DrawerController/AnimatedMenuButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +79,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0739FA024AB80925B32D64D1 /* Seeds */ = {
+			isa = PBXGroup;
+			children = (
+				7EB9006246A93A11ACFE178A /* DrawerController */,
+			);
+			name = Seeds;
+			sourceTree = "<group>";
+		};
+		5D93F06E1C6314A7004CF592 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		5DB617751C61E48300FA4E5D = {
 			isa = PBXGroup;
 			children = (
 				5DB617801C61E48300FA4E5D /* sidemenutest */,
 				5DB617961C61E48300FA4E5D /* sidemenutestTests */,
 				5DB6177F1C61E48300FA4E5D /* Products */,
+				0739FA024AB80925B32D64D1 /* Seeds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,9 +119,15 @@
 				5DB617831C61E48300FA4E5D /* AppDelegate.swift */,
 				5DB617851C61E48300FA4E5D /* ViewController.swift */,
 				5DB617871C61E48300FA4E5D /* Main.storyboard */,
+				5D93F06E1C6314A7004CF592 /* New Group */,
 				5DB6178A1C61E48300FA4E5D /* Images.xcassets */,
 				5DB6178C1C61E48300FA4E5D /* LaunchScreen.xib */,
 				5DB617811C61E48300FA4E5D /* Supporting Files */,
+				5D93F0851C6326E7004CF592 /* LeftSideViewController.swift */,
+				5D93F0871C6326FE004CF592 /* RightSideViewController.swift */,
+				5D630B911C6465F8009E5BE3 /* AboutViewController.swift */,
+				5D630B931C646641009E5BE3 /* MyCustomTableViewCell.swift */,
+				5D8FD5AF1C64AB550005DBCF /* TableCell.swift */,
 			);
 			path = sidemenutest;
 			sourceTree = "<group>";
@@ -110,6 +155,18 @@
 				5DB617981C61E48300FA4E5D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EB9006246A93A11ACFE178A /* DrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				FC93DD9173BA7CC9E77B8443 /* AnimatedMenuButton.swift */,
+				751822D065B046B8D7DEC3F0 /* DrawerBarButtonItem.swift */,
+				CB5F81813C5A93F4C64C0BEC /* DrawerController.swift */,
+				632ED3E878F98DDE9D8ACC97 /* DrawerVisualState.swift */,
+				36324DE93EBB7C24134705B6 /* DrawerController.h */,
+			);
+			name = DrawerController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +269,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D630B941C646641009E5BE3 /* MyCustomTableViewCell.swift in Sources */,
 				5DB617861C61E48300FA4E5D /* ViewController.swift in Sources */,
 				5DB617841C61E48300FA4E5D /* AppDelegate.swift in Sources */,
+				322E4A76D67C76705A3EF893 /* AnimatedMenuButton.swift in Sources */,
+				5D93F0861C6326E7004CF592 /* LeftSideViewController.swift in Sources */,
+				A1882FEAEB76A0F35104F7EA /* DrawerBarButtonItem.swift in Sources */,
+				7A450A6C57AA646B6B4FE58B /* DrawerController.swift in Sources */,
+				5D8FD5B01C64AB550005DBCF /* TableCell.swift in Sources */,
+				5D93F0881C6326FE004CF592 /* RightSideViewController.swift in Sources */,
+				5D630B921C6465F8009E5BE3 /* AboutViewController.swift in Sources */,
+				761BA5F2CED2BAC901AEDFF1 /* DrawerVisualState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DB6179A1C61E48300FA4E5D /* sidemenutestTests.swift in Sources */,
+				114017A1AC97D667975BD675 /* AnimatedMenuButton.swift in Sources */,
+				5CD1EA62A86E5303445B0029 /* DrawerBarButtonItem.swift in Sources */,
+				9D04D845B871F55D4C9078E6 /* DrawerController.swift in Sources */,
+				8F1E5E1A55A01C50C1D95043 /* DrawerVisualState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sidemenutest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sidemenutest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +483,7 @@
 				5DB6179F1C61E48400FA4E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DB617A01C61E48400FA4E5D /* Build configuration list for PBXNativeTarget "sidemenutestTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +492,7 @@
 				5DB617A21C61E48400FA4E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
